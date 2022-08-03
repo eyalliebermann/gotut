@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote"
+	"github.com/eyalliebermann/gotut/greetings"
 )
 
 func main() {
-	fmt.Println("Hello World!\n", quote.Go())
+	fmt.Println("Hello World!\n", greetings.Hello("Jakob"))
 }
