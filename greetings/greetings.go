@@ -19,9 +19,17 @@ func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
-func Hellos(names []string) ([]string, error) {
-	empty := []string{"", ""}
-	return empty, errors.New("Not Implemented")
+func Hellos(names []string) (map[string]string, error) {
+	responses := make(map[string]string)
+	for _, name := range names {
+		response, err := Hello(name)
+		if err != nil {
+			return nil, err
+		}
+		responses[name] = response
+	}
+
+	return responses, nil
 }
 func getRandomFormat() string {
 	formats := []string{
