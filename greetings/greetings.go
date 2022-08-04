@@ -19,6 +19,10 @@ func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
+func Hellos(names []string) ([]string, error) {
+	empty := []string{"", ""}
+	return empty, errors.New("Not Implemented")
+}
 func getRandomFormat() string {
 	formats := []string{
 		"Hello %v, welcome back home!",
