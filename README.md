@@ -8,8 +8,8 @@ Going through the Golang tutorial [here](https://go.dev/doc/tutorial/)
     -  [Return and handle an error](https://go.dev/doc/tutorial/handle-errors)
     -  [Return a random greeting](https://go.dev/doc/tutorial/random-greeting)
     -  [Return greetings for multiple people](https://go.dev/doc/tutorial/greetings-multiple-people)
-    -   Add a test -- Use Go's built-in unit testing features to test your code.
-    -   Compile and install the application
+    -   [Add a test](https://go.dev/doc/tutorial/add-a-test)
+    -   [Compile and install the application](https://go.dev/doc/tutorial/compile-install)
 
 # Further Reading
 1. [Effective Go](https://go.dev/doc/effective_go)

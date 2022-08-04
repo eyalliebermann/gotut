@@ -1,4 +1,4 @@
-module github.com/eyalliebermann/gotut
+module github.com/eyalliebermann/gotut/hello
 
 go 1.18
 
