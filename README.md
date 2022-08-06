@@ -10,9 +10,7 @@
         -   [Add a test](https://go.dev/doc/tutorial/add-a-test)
         -   [Compile and install the application](https://go.dev/doc/tutorial/compile-install)
     3. [Tutorial: Getting started with multi-module workspaces](https://go.dev/doc/tutorial/workspaces)
-        - Create a module for your code
-        - ...Create the workspace...
-    4. Tutorial: Accessing a relational database
+    4. **Tutorial: Accessing a relational database**
     5. Tutorial: Developing a RESTful API with Go and Gin
     6. Tutorial: Getting started with generics
     7. Tutorial: Getting started with fuzzing
@@ -34,5 +32,7 @@
     1. [Keeping Your Modules Compatible](https://go.dev/blog/module-compatibility)
 4. [Documentation](https://go.dev/doc/)
     1. [testing](https://pkg.go.dev/testing#T.Fatalf)
-    2. [Managing dependencies](https://go.dev/doc/modules/managing-dependencies)
-    3. [Developing and publishing modules](https://go.dev/doc/modules/developing)
+    2. Modules
+        1. [Managing dependencies](https://go.dev/doc/modules/managing-dependencies)
+        2. [Developing and publishing modules](https://go.dev/doc/modules/developing)
+        3. [Module release and versioning workflow](https://go.dev/doc/modules/release-workflow)
