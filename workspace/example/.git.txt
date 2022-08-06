@@ -1,1 +1,0 @@
-git clone https://go.googlesource.com/example
