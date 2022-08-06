@@ -1,0 +1,4 @@
+➜  ~/code/gotut/workspace git:(main) ✗ go run ./hello
+HELLO WORLD!
+➜  ~/code/gotut/workspace git:(main) ✗ go run github.com/eyalliebermann/gotut/workspace/hello
+
